@@ -1,7 +1,7 @@
 #  Iryna Lebed
 
 ## Contacts
-Phone: (431)990-2559
+Phone: (431)990-2559 
 Email: lebed.js@gmail.com
 
 ## Qualifications
@@ -26,9 +26,9 @@ Email: lebed.js@gmail.com
 *	Installation, adjustment and updating of software security.
 
 ## Relevant Education History
-***JavaScript Essential*** course (2024) - itvdn.com
-***CSS Flexbox*** course (2023) - itvdn.com
-***IT English*** course (2023) - itvdn.com
+***JavaScript Essential*** course (2024) - itvdn.com 
+***CSS Flexbox*** course (2023) - itvdn.com 
+***IT English*** course (2023) - itvdn.com 
 ***JavaScript*** Essential (2022) - itvdn.com
 
 ***Master's Degree in Economic Cybernetics***
