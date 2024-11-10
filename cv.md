@@ -14,12 +14,12 @@ Email: lebed.js@gmail.com
 ## Relevant Employment History
 **Software engineer**
 (2013 - 2014)
-* *Ukrtech-Info* * - Mariupol, Ukraine
+_Ukrtech-Info_ - Mariupol, Ukraine
 -	Cross-browser layout of pages with interactive elements
 
 **Software engineer**
 (2016 - 2022)
-* *"Point of services"* * - Dolynska, Ukraine
+_"Point of services"_ - Dolynska, Ukraine
 -	Developing a comprehensive program for accounting for the operation of a gas station and auto parts store
 -	Improvement and support of computer networking.
 -	Set up equipment: working computers, cash register, terminal, video security system.
@@ -38,7 +38,7 @@ Technical University - Kryvyi Rih, Ukraine
 ## Aditional Employment History
 **Concierge**
 (2023)
-* *Women's dormitory* * - Sion, Switzerland
+_Women's dormitory_ - Sion, Switzerland
 -	ensuring order and silence
 -	guest control
 -	resolution of emergency situations
@@ -46,7 +46,7 @@ Technical University - Kryvyi Rih, Ukraine
 
 **Head of content management group**
 (2016 - 2018)
-* *Online store "He and She"* * - Moscow, Russia
+_Online store "He and She"_ - Moscow, Russia
 -	Recruitment of new employees
 -	Organization of training for beginners
 -	Planning the work of the department and setting individual tasks
@@ -54,7 +54,7 @@ Technical University - Kryvyi Rih, Ukraine
 
 **Head of Accounting Department**
 (2008 - 2013)
-* *Department of agro-industrial development* * - Dolynska, Ukraine
+_Department of agro-industrial development_ - Dolynska, Ukraine
 - Civil service
 
 
