@@ -2,12 +2,49 @@
     padding: 0px;
     margin: 0px;
 }
+html {
+    background-color: rgba(190, 188, 188, 0.301)
+}
 body {
-    padding: 15px;
+    margin: auto;
+    min-width: 600px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    
 }
-img {
+header {
+    padding: 0 15px 15px;
+    background-color: #eb58e6;
+}
+nav {
+    margin-bottom: 10px;
+}
+
+nav ul li, footer ul li {
+    display:inline-block;
+    list-style: none;   
+    font-size: 23px;
+    margin: 0px 40px;
+}
+
+
+footer {
+    text-align:right;
+    height: 50px;
+    padding: 10px;
+    background-color: #eb58e6;
+}
+
+footer img {
+    height: 40px;
+}
+
+section {
+    width: 680px;
+    margin:auto;
+}
+header img {
     width: 210px;
     float: left;
 }
@@ -59,12 +96,16 @@ ul.history ul {
 }
 .contacts {
     margin: 15px 0;
+    width: auto;
     text-align: center;
     font-size: 20px;
+}
+.contacts ul {
+    list-style:none;
 }
 .contacts span {
     font-weight: bold;
 }
-.contacts p {
+section p {
     line-height: 1.5;
 }
