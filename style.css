@@ -25,7 +25,7 @@ nav ul li, footer ul li {
     display:inline-block;
     list-style: none;   
     font-size: 23px;
-    margin: 0px 49px;
+    margin: 0px 40px;
 }
 
 
@@ -100,9 +100,10 @@ ul.history ul {
     text-align: center;
     font-size: 20px;
 }
+.contacts ul {
+    list-style:none;
+}
 .contacts span {
     font-weight: bold;
 }
-.contacts p {
-    line-height: 1.5;
-}
+
