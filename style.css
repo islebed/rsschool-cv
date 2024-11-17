@@ -106,4 +106,6 @@ ul.history ul {
 .contacts span {
     font-weight: bold;
 }
-
+section p {
+    line-height: 1.5;
+}
