@@ -6,16 +6,25 @@ html {
     background-color: rgba(190, 188, 188, 0.301)
 }
 body {
-    /*padding: 0 25px;*/
     margin: auto;
     width: 1000px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    
 }
 header {
-    padding: 15px;
+    padding: 0 15px 15px;
     background-color: #eb58e6;
+}
+nav {
+    margin-bottom: 10px;
+}
+nav ul li {
+    display:inline;
+    list-style: none;
+    margin: 0px 49px;
+    font-size: 23px;
 }
 section {
     width: 680px;
