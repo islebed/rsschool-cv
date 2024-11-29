@@ -5,18 +5,15 @@
 
 body {
     width: 1440px;
-    
+    font-family: Montserrat;
     margin: auto;
 }
 header {
-    /*height: 64px;*/
     font-size: 12px;
-    font-weight: 600;
-    font-family: Montserrat;
+    font-weight: 600;    
     line-height: 15.6px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    /*background-color: pink;*/
 }
 .header-container {
     margin: auto;
@@ -25,13 +22,7 @@ header {
     display: flex;    
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;    
-    /*justify-content: center;
-    
-    padding: 12px 0px;
-    gap: 12px;
-    background-color: greenyellow;
-    background-color: lime;*/
+    justify-content: space-between; 
 }
 .header-container a {
     text-decoration: none;
@@ -43,7 +34,6 @@ header {
     padding: 8px 20px;
     display: flex;
     align-items: center;
-    /*background-color: grey;*/
 }
 .logo img {
     width: 24px;
@@ -53,7 +43,6 @@ header {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-
 }
 nav a {
     height: 16px;
@@ -65,5 +54,12 @@ nav a:hover {
     border-radius: 12px;
 }
 
+.caption {
+    font-family: Allura;
+    font-size:24px;
+    font-weight: 400px;
+    line-height: 100%;
+    letter-spacing: 5%;
+}
 /* Home page */
 
