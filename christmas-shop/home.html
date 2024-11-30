@@ -8,36 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <a class="logo" href="home.html">
-                <img src="img/snowflake.svg" alt="logo">
-                <span>The Gifts</span>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="gifts.html">Gifts</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#best">Best</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
-            </nav>
-        </div>        
-    </header>
-    <main>
-        <section id="hero">
-            <p class="caption">Merry Christmas</p>
-            <h1>Gift yourself the magic of new possibilities</h1>
-            <p class="caption">and Happy New Year</p>
-        </section>
+    <div class="wrapper">    
+        <header>
+            <div class="header-container">
+                <a class="logo" href="home.html">
+                    <img src="img/snowflake.svg" alt="logo">
+                    <span>The Gifts</span>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="gifts.html">Gifts</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#best">Best</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header>
+        <main>
+            <section id="hero">
+                <div class="hero-content">
+                    <p class="caption">Merry Christmas</p>
+                    <h1>Gift yourself the magic of new possibilities</h1>
+                    <!--<a class="button" href="gifts.html"></a>-->
+                    <input class="button" type="button" value="Explore Magical Gifts">
+                    <p class="caption">and Happy New Year</p>
+                </div>
+            </section>
 
-        <section id="about"></section>
-        <section id="slider"></section>
-        <section id="best"></section>
-        <section id="timer"></section>
-    </main>
+            <section id="about"></section>
+            <section id="slider"></section>
+            <section id="best"></section>
+            <section id="timer"></section>
+        </main>
+    </div>
     <footer>
         <section id="contacts"></section>
     </footer>
