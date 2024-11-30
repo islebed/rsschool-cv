@@ -61,6 +61,7 @@ main {
     background-position-y: -40px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    overflow: hidden;
 }
 
 h1 {
@@ -159,3 +160,58 @@ p {
 .about-content .caption {
     color: #FF4646;
 }
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 488px;
+}
+.slider-content {
+    width: 1276px;
+    height: 368px;
+    text-align: center;
+}
+.slider-content .caption {
+    margin-bottom: 12px;
+}
+.slider-content h2 {    
+    color:#FFFFFF;
+}
+.slider-items {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.slider-text {
+    font-size: 80px;
+    font-weight: 600px;
+    line-height: 97.52px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+}
+#slider img {
+    margin: 0 20px;
+    width: 200px;
+    border-radius: 20px;
+}
+.slider-buttons {    
+    text-align: right;
+    height: 56px;
+}
+.arrow {
+    margin-left: 20px;
+    width: 56px;
+    height: 56px;
+    color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    border-radius: 20px;
+}
+.arrow:hover {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    cursor: pointer;
+}
+
+
