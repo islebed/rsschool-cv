@@ -143,6 +143,11 @@ p {
     border-radius: 20px;
     border: none;
 }
+.button:hover {
+    color: #181C29;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
 #about {
     display: flex;
     justify-content: center;
@@ -230,6 +235,10 @@ p {
     border-color: #FFFFFF;
     cursor: pointer;
 }
+.arrow:active {
+    color: #FF4646;
+    background-color: #FFFFFF;
+}
 #best {
     display: flex;
     justify-content: center;
@@ -277,4 +286,39 @@ p {
 .for-harmony {
     color: #FF43F7;
 }
+#cta {
+    height: 668px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg-forest.png);
+    background-size: 1440px;
+}
+.cta-content {
+    width: 426px;
+    height: 428px;
+}
+.cta-content h2, h4 {
+    color: #FFFFFF;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 344px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);;
+}
+.timer-item {
+    width: 79px;
+    height: 52px;
+    text-align: center;
+}
+.separator {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 
