@@ -59,9 +59,14 @@ main {
     background-image: url(img/bg-snow.png);
     background-size: 1440px auto;
     background-position-y: -40px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
     overflow: hidden;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 496px;
 }
 
 h1 {
@@ -126,6 +131,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12px;
     max-width: 432px;
     height: 404px;
 }
@@ -262,6 +268,9 @@ p {
     border-radius: 20px;
     background-color: #ECF3F8;
 }
+.card:hover h3 {
+    color: #FF4646;
+}
 .card img {
     width: 310px;
 }
@@ -273,35 +282,44 @@ p {
     /*align-items: start;*/
     gap: 8px;
     text-align: left;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+   /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;*/
+    border-radius: 20px;
     background-color: #FFFFFF;
 }
-.for-work {
+.for-work h4 {
     color:#4361FF;
 }
-.for-health {
+.for-health h4 {
     color: #06A44F;
 }
-.for-harmony {
+.for-harmony h4 {
     color: #FF43F7;
 }
 #cta {
     height: 668px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     background-image: url(img/bg-forest.png);
     background-size: 1440px;
 }
 .cta-content {
     width: 426px;
     height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .cta-content h2, h4 {
     color: #FFFFFF;
 }
+.cta-content input {
+    margin:20px 0px;
+}
 .timer {
+    margin-top: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,5 +338,79 @@ p {
     height: 20px;
     background-color: rgba(255, 255, 255, 0.4);
 }
-
+#contacts {
+    width:1276px;
+    height: 376px;
+}
+.contacts-content {
+    margin-bottom: 60px;
+    display: flex;
+    gap: 12px;
+    height: 204px;
+}
+.contacts-item {
+    /*width: 204px;
+    flex-grow: 1;*/
+    width: 33%;
+    display: flex;;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;    
+    border-radius: 20px;
+    background-color: #ECF3F8;
+}
+.contacts-item:hover {
+    cursor: pointer;
+}
+.contacts-item:hover p,
+.contacts-item:hover h3 {
+    color: #FF4646;
+}
+.contacts-item img {
+    width: 80px;
+}
+.contacts-item p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16px;
+    color:#181C29
+}
+.signature {
+    height: 112px;
+    text-align:center;
+}
+.socials {
+    display:flex;
+    gap: 12px;
+    justify-content: center;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.icon:hover {
+    cursor: pointer;
+}
+.icon:hover path {
+    stroke: #FF4646;
+}
+.signature {
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.signature a {
+    color: #181C29;
+    text-decoration: none;
+}
+.signature a:hover {
+    color: #FF4646;
+}
 
