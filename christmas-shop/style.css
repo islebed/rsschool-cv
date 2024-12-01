@@ -55,12 +55,14 @@ nav a:hover {
     border-radius: 12px;
 }
 main {
-    background-color: #FF4646;
-    background-image: url(img/bg-snow.png);
-    background-size: 1440px auto;
-    background-position-y: -40px;
+    background-color: #FF4646;    
     border-radius: 20px;
     overflow: hidden;
+}
+main.home {
+   background-image: url(img/bg-snow.png);
+    background-size: 1440px auto;
+    background-position-y: -40px; 
 }
 footer {
     display: flex;
@@ -115,7 +117,7 @@ p {
     color:#FFFFFF;
 }
 
-/* ============= Home page ================*/
+/* ============= pages ================*/
 #hero {
     display: flex;
     justify-content: center;
