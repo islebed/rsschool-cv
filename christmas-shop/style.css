@@ -6,7 +6,8 @@
 body {
     margin: auto;
     width: 1440px;
-    font-family: Montserrat;    
+    font-family: Montserrat; 
+    background-color: white;   
 }
 header {
     font-size: 12px;
@@ -143,8 +144,8 @@ p {
     height: 404px;
 }
 .button {
-    width: 235px;
-    height: 56px;
+    width: 172px;
+    height: 16px;
     padding: 20px 32px;
     font-size: 12px;
     font-weight: 600;
@@ -155,6 +156,7 @@ p {
     background-color: #181C29;
     border-radius: 20px;
     border: none;
+    text-decoration: none;
 }
 .button:hover {
     color: #181C29;
@@ -252,7 +254,7 @@ p {
     color: #FF4646;
     background-color: #FFFFFF;
 }
-#best {
+#best-gifts {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +325,7 @@ p {
 .cta-content h2, h4 {
     color: #FFFFFF;
 }
-.cta-content input {
+.cta-content a {
     margin:20px 0px;
 }
 .timer {
